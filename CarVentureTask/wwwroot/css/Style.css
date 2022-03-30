@@ -1,0 +1,766 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.logo {
+    margin-left: 185px;
+    font-family: 'Fenix';
+    font-style: normal;
+    font-size: 30px;
+}
+
+ul {
+    margin-right: 185px;
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+    .nav-links li {
+        width: 120px;
+        margin: 0 0px;
+        padding: 5px;
+    }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: black;
+        }
+
+.active {
+    height: 40px;
+    background: #1f4590;
+    border-radius: 4px;
+    text-align: center;
+}
+
+    .active a {
+        color: whitesmoke !important;
+    }
+
+.selection {
+    background-image: url('/img/Hero\ BG.png');
+    width: 1320px;
+    height: 677px;
+    margin: 15px auto;
+}
+
+.selection-content h1 {
+    color: #FFFFFF;
+    position: absolute;
+    font-weight: 800, Extra bold;
+    height: 140px;
+    font-size: 70px;
+    left: 409px;
+    top: 300px;
+    line-height: 70px;
+}
+
+.selection-content p {
+    color: #FFFFFF;
+    position: absolute;
+    font-weight: 250;
+    font-size: 18px;
+    left: 415px;
+    top: 450px;
+    line-height: 30px;
+}
+
+form {
+    display: flex;
+    position: absolute;
+    width: 1050px;
+}
+
+.Form {
+    margin: auto;
+    position: absolute;
+    width: 1150px;
+    height: 140px;
+    left: 390px;
+    top: 740px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 100px;
+}
+
+.Location {
+    margin-left: 30px;
+}
+
+    .Location h1 {
+        width: 200px;
+        height: 20px;
+        left: 267px;
+        top: 763px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    .Location select {
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        background: #FFFFFF;
+        border: 2px solid #BBC8D4;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+    .Location #select {
+        width: 180px;
+        height: 50px;
+        left: 16px;
+        top: calc(50% - 29px/2 + 0.5px);
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        color: #BBC8D4;
+    }
+
+.Form #Search {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 55px !important;
+    background: #1F4590;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: 140px;
+}
+
+.Advert {
+    background-image: url(../img/Advert.png);
+    width: 1295.56px;
+    height: 61px;
+    margin: 155px auto;
+}
+
+
+.Featured h1 {
+    padding-bottom: 80px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 70px;
+    color: #000000;
+}
+
+.Featured-cars {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    width: 423px;
+    height: 560px;
+    left: 951px;
+    top: 1311px;
+    margin: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-image1 {
+    background-image: url('../img/Car Image.png');
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 147px;
+    background-size: 300px;
+    margin: 40px;
+}
+
+.card-image2 {
+    background-image: url('../img/Car Image (1).png');
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 147px;
+    background-size: 300px;
+    margin: 40px;
+}
+
+.card-image3 {
+    background-image: url('../img/Car Image (2).png');
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 147px;
+    background-size: 300px;
+    margin: 40px;
+}
+
+.card1 h2 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 900px;
+    padding: 10px;
+    margin: 1px auto;
+}
+
+.card1 a {
+    background-color: #1F4590;
+    color: #FFFFFF;
+    width: 165px;
+    height: 56px;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700px;
+    font-size: 25px;
+    margin: 30px 50px;
+    border-radius: 5px;
+}
+
+.card1 p {
+    margin: 18px 50px;
+    font-weight: 250;
+    font-size: 18px;
+    left: 415px;
+    top: 450px;
+    line-height: 27px;
+    font-size: 30px;
+}
+
+.card-image4 {
+    background-image: url(../img/Vector.png);
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 147px;
+    background-size: 300px;
+    margin: 40px;
+}
+
+.card-image5 {
+    background-image: url(../img/Shield.png);
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 147px;
+    background-size: 300px;
+    margin: 40px;
+}
+
+.card-image6 {
+    background-image: url('../img/Vector (1).png');
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 147px;
+    background-size: 300px;
+    margin: 40px;
+}
+
+.Why {
+    display: flex;
+    justify-content: center;
+}
+
+.Why-Main h1 {
+    padding-top: 180px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 70px;
+    color: #000000;
+}
+
+.Why-Main p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+    color: #000000;
+    padding-bottom: 90px;
+}
+
+.card2 {
+    width: 423px;
+    height: 560px;
+    left: 951px;
+    top: 1311px;
+    margin: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+    .card2 h2 {
+        text-align: center;
+        font-size: 38px;
+        font-weight: 900px;
+        padding: 10px;
+        margin: 1px auto;
+    }
+
+    .card2 p {
+        margin: 18px 50px;
+        font-weight: 250;
+        font-size: 18px;
+        left: 415px;
+        top: 450px;
+        line-height: 27px;
+        font-size: 30px;
+    }
+
+.What-Main h1 {
+    padding-top: 180px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 70px;
+    color: #000000;
+}
+
+.What-Main p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+    color: #000000;
+    padding-bottom: 90px;
+}
+
+.What-cards {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card3 {
+    background-image: url('../img/Testimonial Image.png');
+    width: 647px;
+    height: 682px;
+    left: 951px;
+    top: 1311px;
+    margin: 10px;
+}
+
+.card4 {
+    width: 647px;
+    height: 682px;
+    left: 951px;
+    top: 1311px;
+    margin: 10px;
+    background: #1F4590;
+}
+
+    .card4 p {
+        position: absolute;
+        text-align: center;
+        width: 455px;
+        height: 360px;
+        left: 1050px;
+        top: 3500px;
+        font-family: 'Mulish';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+
+    .card4 h1 {
+        color: #FFFFFF;
+        width: 165px;
+        display: block;
+        font-weight: 500px;
+        font-size: 24px;
+        margin: 450px 70px;
+        border-radius: 5px;
+        line-height: 30px;
+    }
+
+.House-Stories {
+    padding-bottom: 300px;
+}
+
+.Stories h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 70px;
+    color: #000000;
+}
+
+.Story-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.Story-card {
+    width: 470px;
+    height: 565px;
+    left: 951px;
+    top: 1311px;
+    margin: 10px;
+    background: #FFFFFF;
+}
+
+.story-image1 {
+    background-image: url('../img/Blog Image.png');
+    width: 450px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.story-image2 {
+    background-image: url('../img/Blog Image (1).png');
+    width: 450px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.story-image3 {
+    background-image: url('../img/Blog Image (4).png');
+    width: 450px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+
+.Story-card #Search {
+    width: 85px;
+    height: 28px;
+    background: #1F4590;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    margin-left: 23px;
+}
+
+.Story-card h2 {
+    text-align: left;
+    font-size: 28px;
+    margin: 10px 14px;
+}
+
+.Story-card p {
+    width: 344px;
+    height: 87px;
+    padding: 10px 20px;
+    top: 4852px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163.15%;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.Story-card a {
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 108px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    color: #000000;
+    text-decoration: none;
+}
+
+.Next-Drive-Main {
+    width: 1320px;
+    height: 512px;
+    top: 5328px;
+    background: #1F4590;
+    border-radius: 10px;
+    margin: 15px auto;
+}
+
+.Drive-Text {
+    padding: 60px;
+}
+
+    .Drive-Text h1 {
+        height: 140px;
+        left: 224px;
+        top: 5385px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 70px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+.drive-form {
+    display: flex;
+    width: 1050px;
+}
+
+.Drive-Form {
+    margin: 60px auto;
+    width: 1100px;
+    height: 140px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 100px;
+}
+
+.Drive-Location {
+    margin-left: 30px;
+}
+
+    .Drive-Location h1 {
+        width: 200px;
+        height: 20px;
+        left: 267px;
+        top: 763px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    .Drive-Location select {
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        background: #FFFFFF;
+        border: 2px solid #BBC8D4;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+    .Drive-Location #select {
+        width: 180px;
+        height: 50px;
+        left: 16px;
+        top: calc(50% - 29px/2 + 0.5px);
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        color: #BBC8D4;
+    }
+
+.Drive-Form #Search {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 55px !important;
+    background: #1F4590;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: 140px;
+}
+
+.House-Footer {
+    margin: 200px auto;
+    width: 1440px;
+    height: 450px;
+    left: 0px;
+    bottom: 0px;
+    background: #ECEEF4;
+}
+
+.Footer-Block {
+    display: flex;
+    justify-content: center;
+}
+
+.Sect1 {
+    margin: 57px;
+}
+
+.Car-Venture p {
+    margin: 25px auto;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.Company h1 {
+    bottom: 371px;
+    font-family: 'Cabin';
+    font-weight: 1100;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.Features h1 {
+    bottom: 371px;
+    font-family: 'Cabin';
+    font-weight: 1100;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.Contact-Us h1 {
+    bottom: 371px;
+    font-family: 'Cabin';
+    font-weight: 1100;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.Deals-Discount h1 {
+    bottom: 371px;
+    font-family: 'Cabin';
+    font-weight: 1100;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.Company p {
+    margin: 25px auto;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.Features p {
+    margin: 25px auto;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.Contact-Us p {
+    margin: 25px auto;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.Deals-Discount p {
+    margin: 25px auto;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.Contact-Us h2 {
+    margin: 25px auto;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.Car-Venture h2 {
+    margin: 230px auto;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.Location {
+    margin: auto;
+}
+
+    .Location select {
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        background: #FFFFFF;
+        border: 2px solid #BBC8D4;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+    .Location #mail {
+        width: 290px;
+        height: 50px;
+        left: 16px;
+        top: calc(50% - 29px/2 + 0.5px);
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        color: #BBC8D4;
+    }
